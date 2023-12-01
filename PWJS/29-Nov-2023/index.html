@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Worker</title>
+</head>
+<body>
+    <h1>Welcome to Web Worker</h1>
+    <select id="colorSelect">
+        <option value="red">RED</option>
+        <option value="green">GREEN</option>
+        <option value="blue">BLUE</option>
+        <option value="black">BLACK</option>
+        <option value="white">WHITE</option>
+    </select>
+    <br><br>
+    <button id="calcBtn">Do Long Calculation</button>
+    <button onclick="callWorker()">Worker</button>
+    <p id="answer"></p>
+
+    <script src="main.js"></script>    
+</body>
+</html>

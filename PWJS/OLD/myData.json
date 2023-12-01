@@ -1,0 +1,96 @@
+{
+    "students": [
+       {
+          "name": "Hussain",
+          "dob": "2007-May-30",
+          "gender": "male",
+          "friends": [
+             {
+                "name": "Mustafa",
+                "phone": "03xx-xxx-xxxx",
+                "hobbies": [
+                   "reading",
+                   "dancing",
+                   "singing"
+                ]
+             },
+             "Sahal",
+             "Ayan",
+             "Rayyan"
+          ]
+       },
+       {
+          "name": "Rafay",
+          "dob": "2007-Nov-05",
+          "gender": "male",
+          "friends": [
+             "Dawood",
+             "Misbah",
+             "Shaique"
+          ]
+       },
+       {
+          "name": "Rayan",
+          "dob": "2006-Aug-07",
+          "gender": "male",
+          "friends": [
+             "Abdullah",
+             "Afzal",
+             "Chamdia"
+          ]
+       },
+       {
+          "name": "Basit",
+          "dob": "2004-Jan-30",
+          "gender": "male",
+          "friends": [
+             "Haseeb"
+          ]
+       },
+       {
+          "name": "Shahzaib",
+          "dob": "2004-Nov-23",
+          "gender": "male",
+          "friends": [
+             "Maaz",
+             "Waqas"
+          ]
+       },
+       {
+          "name": "Abdul Rehman",
+          "dob": "2005-Jun-09",
+          "gender": "male",
+          "friends": null
+       },
+       {
+          "name": "Mahnoor",
+          "dob": "2004-May-06",
+          "gender": "female",
+          "friends": null
+       },
+       {
+          "name": "Sadaf",
+          "dob": "2001-Dec-17",
+          "gender": "female",
+          "friends": null
+       },
+       {
+          "name": "Emaan",
+          "dob": "2003-Aug-06",
+          "gender": "female",
+          "friends": null
+       },
+       {
+          "name": "Junaid",
+          "dob": "2003-Nov-16",
+          "gender": "male",
+          "friends": null
+       },
+       {
+          "name": "Uzair",
+          "dob": "2003-Jun-28",
+          "gender": "male",
+          "friends": null
+       }
+    ]
+ }

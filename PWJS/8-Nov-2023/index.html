@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myFun()">Click Me</button>
+
+    <form>
+        <label for="tf">Temprature Fahrenheit</label>
+        <input type="number" id="tf" name="tf">
+        <input type="button" onclick="fToC(tf.value)" value="Show">        
+    </form>
+    <p id="showBox"></p>
+
+    
+    <button onclick="dt()">The Time is</button>
+    <p id="showTime"></p>
+
+    <button onclick="this.innerHTML = Date()">The time is?</button>
+    
+    <script src="main.js"></script>
+</body>
+</html>

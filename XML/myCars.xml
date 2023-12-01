@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carShowroom>
+   <car carid="1">
+      <make>Toyota</make>
+      <model>Camry</model>
+      <year>2022</year>
+      <color>Silver</color>
+      <price>25000</price>
+      <engine>
+         <type>Inline-4</type>
+         <displacement>2.5L</displacement>
+         <horsepower>203hp</horsepower>
+      </engine>
+      <transmission>
+         <type>Automatic</type>
+         <gears>8-speed</gears>
+      </transmission>
+      <yearOfRegistration>2022</yearOfRegistration>
+      <registrationNumber>XYZ-1234</registrationNumber>
+      <engineNumber>ABCDE12345</engineNumber>
+      <chassisNumber>1234567890</chassisNumber>
+      <features>
+         <feature>Bluetooth Connectivity</feature>
+         <feature>Backup Camera</feature>
+         <feature>Leather Seats</feature>
+      </features>
+   </car>
+   <car carid="2">
+      <make>Honda</make>
+      <model>CR-V</model>
+      <year>2023</year>
+      <color>Blue</color>
+      <price>28000</price>
+      <engine>
+         <type>Inline-4</type>
+         <displacement>1.5L</displacement>
+         <horsepower>190hp</horsepower>
+      </engine>
+      <transmission>
+         <type>CVT</type>
+         <gears>N/A</gears>
+      </transmission>
+      <yearOfRegistration>2023</yearOfRegistration>
+      <registrationNumber>ABC-5678</registrationNumber>
+      <engineNumber>FGHI67890</engineNumber>
+      <chassisNumber>9876543210</chassisNumber>
+      <features>
+         <feature>Sunroof</feature>
+         <feature>Apple CarPlay</feature>
+         <feature>Adaptive Cruise Control</feature>
+      </features>
+   </car>
+</carShowroom>

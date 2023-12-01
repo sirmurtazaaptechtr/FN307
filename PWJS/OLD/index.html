@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let data;
+        console.log(data+" is "+typeof(data));
+        data = 5;
+        console.log(data+" is "+typeof(data));
+        data = "Ali";
+        console.log(data+" is "+typeof(data));
+        data = true;
+        console.log(data+" is "+typeof(data));
+        data = null;
+        console.log(data+" is "+typeof(data));
+        data = [5,"Ali",true,null];
+        console.log(data+" is "+typeof(data));
+        console.log(data);
+        data = [
+            {age:5,name:"Ali",isStudnet:true,email:null},
+            {age:15,name:"Jameel",isStudnet:false,email:"iamjameel@gmail.com"}
+        ];
+        console.log(data+" is "+typeof(data));
+        console.log(data);
+        data = `[{"age":5,"name":"Ali","isStudnet":true,"email":null},{"age":15,"name":"Jameel","isStudnet":false,"email":"iamjameel@gmail.com"}]`;
+        console.log(data+" is "+typeof(data));
+        data = JSON.parse(data);
+        console.log(data);
+        data = JSON.stringify(data);
+        console.log(data+" is "+typeof(data));
+        
+        </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>        
+        const regEx = /^\d{3}-\d{3}-\d{4}$/gi;
+        // const regEX = new RegExp('^\d{3}-\d{3}-\d{4}$','gi');
+
+        console.log(typeof(regEx));
+
+
+        const text = 'Hello world! hello there';
+        // const lit = /hello/ig;
+        const lit = /world/i;
+        // const lit = new RegExp('hello','ig');
+        console.log(text.match(lit));
+
+        const regexPattern1 = /^cat/;
+
+        const text1 = 'cat and mouse';
+        console.log(text1.match(regexPattern1));
+        console.log(regexPattern1.test(text1));
+        
+        const text2 = 'The cat and mouse';
+        console.log(text2.match(regexPattern1));
+        console.log(regexPattern1.test(text2));
+
+        const regexPattern2 = /cat$/;
+
+        const text3 = 'I have a beautiful cat';
+        console.log(text3.match(regexPattern2));
+        console.log(regexPattern2.test(text3));
+
+        const regexPattern3 = /\bward/ig;
+        const regexPattern4 = /ward\b/ig;
+        const regexPattern5 = /\bward\b/ig;        
+        const regexPattern6 = /\Bward\B/ig;        
+        
+        const text4 ='backward Wardrobe Ward Thewardern';
+        console.log(text4.match(regexPattern3));
+        console.log(regexPattern3.test(text4));
+
+        console.log(text4.match(regexPattern4));
+        console.log(regexPattern4.test(text4));
+
+        console.log(text4.match(regexPattern5));
+        console.log(regexPattern5.test(text4));
+
+        console.log(text4.match(regexPattern6));
+        console.log(regexPattern6.test(text4));
+
+        const regexPattern7 = /\b[AE]l[iy]\b/ig;
+
+        const text5 = "Aly is my firend. Ely is very good. Ali lives in karachi";
+       
+        console.log(text5.match(regexPattern7));
+        console.log(regexPattern7.test(text5));
+
+        const regexPattern8 = /[^bc]at/ig;
+
+        const text6 ="bat cat mat fat rat";
+        
+        console.log(text6.match(regexPattern8));
+        console.log(regexPattern8.test(text6));
+
+        const regexPattern9 = /(Bob|George)\sClan/ig;
+
+        const text7 = "Bob Clan George Clan GeorgeClan BobClan"
+          
+        console.log(text7.match(regexPattern9));
+        console.log(regexPattern9.test(text7));
+
+        
+
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

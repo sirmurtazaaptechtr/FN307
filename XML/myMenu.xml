@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="myMenu.xsl"?>
+<breakfast_menu>
+   <food>
+      <name>Belgian Waffles</name>
+      <price>$5.95</price>
+      <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+      <calories>650</calories>
+   </food>
+   <food>
+      <name>Strawberry Belgian Waffles</name>
+      <price>$7.95</price>
+      <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+      <calories>900</calories>
+   </food>
+   <food>
+      <name>Berry-Berry Belgian Waffles</name>
+      <price>$8.95</price>
+      <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+      <calories>900</calories>
+   </food>
+   <food>
+      <name>French Toast</name>
+      <price>$4.50</price>
+      <description>Thick slices made from our homemade sourdough bread</description>
+      <calories>600</calories>
+   </food>
+   <food>
+      <name>Homestyle Breakfast</name>
+      <price>$6.95</price>
+      <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+      <calories>950</calories>
+   </food>
+   <food>
+      <name>Pancakes</name>
+      <price>$5.25</price>
+      <description>A stack of fluffy buttermilk pancakes served with butter and syrup</description>
+      <calories>700</calories>
+   </food>
+   <food>
+      <name>Omelette</name>
+      <price>$8.75</price>
+      <description>Customize your omelette with a variety of fillings, served with toast</description>
+      <calories>750</calories>
+   </food>
+   <food>
+      <name>Breakfast Burrito</name>
+      <price>$6.99</price>
+      <description>Scrambled eggs, cheese, and your choice of toppings, wrapped in a tortilla</description>
+      <calories>850</calories>
+   </food>
+   <food>
+      <name>Fruit Parfait</name>
+      <price>$4.95</price>
+      <description>Layers of yogurt, granola, and fresh fruit for a healthy start to your day</description>
+      <calories>350</calories>
+   </food>
+   <food>
+      <name>Classic Bacon and Eggs</name>
+      <price>$7.50</price>
+      <description>Two eggs any style, bacon strips, and toast</description>
+      <calories>700</calories>
+   </food>
+   <food>
+      <name>Vegetarian Breakfast</name>
+      <price>$6.25</price>
+      <description>Scrambled tofu, roasted vegetables, and whole grain toast</description>
+      <calories>550</calories>
+   </food>
+   <food>
+      <name>Coffee</name>
+      <price>$2.00</price>
+      <description>Hot brewed coffee, your choice of roast</description>
+      <calories>5</calories>
+   </food>
+   <food>
+      <name>Fresh Orange Juice</name>
+      <price>$3.50</price>
+      <description>100% pure squeezed orange juice</description>
+      <calories>120</calories>
+   </food>
+   <food>
+      <name>Vegan Breakfast Burrito</name>
+      <price>$7.99</price>
+      <description>Scrambled tofu, black beans, salsa, and avocado in a tortilla</description>
+      <calories>650</calories>
+   </food>
+   <food>
+      <name>Eggs Benedict</name>
+      <price>$9.25</price>
+      <description>Poached eggs on English muffins with hollandaise sauce and ham</description>
+      <calories>850</calories>
+   </food>
+   <food>
+      <name>Cinnamon French Toast</name>
+      <price>$6.75</price>
+      <description>Thick slices of French toast dusted with cinnamon and powdered sugar</description>
+      <calories>800</calories>
+   </food>
+   <food>
+      <name>Healthy Breakfast Bowl</name>
+      <price>$7.50</price>
+      <description>Greek yogurt, mixed berries, honey, and granola</description>
+      <calories>400</calories>
+   </food>
+   <food>
+      <name>Steak and Eggs</name>
+      <price>$10.99</price>
+      <description>Grilled steak, two eggs any style, and toast</description>
+      <calories>1100</calories>
+   </food>
+   <food>
+      <name>Smoked Salmon Bagel</name>
+      <price>$8.99</price>
+      <description>Smoked salmon, cream cheese, capers, and red onion on a bagel</description>
+      <calories>600</calories>
+   </food>
+</breakfast_menu>

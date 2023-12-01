@@ -1,0 +1,48 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="carShowroom">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="make"/>
+              <xs:element type="xs:string" name="model"/>
+              <xs:element type="xs:short" name="year"/>
+              <xs:element type="xs:string" name="color"/>
+              <xs:element type="xs:short" name="price"/>
+              <xs:element name="engine">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="type"/>
+                    <xs:element type="xs:string" name="displacement"/>
+                    <xs:element type="xs:string" name="horsepower"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="transmission">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="type"/>
+                    <xs:element type="xs:string" name="gears"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:short" name="yearOfRegistration"/>
+              <xs:element type="xs:string" name="registrationNumber"/>
+              <xs:element type="xs:string" name="engineNumber"/>
+              <xs:element type="xs:long" name="chassisNumber"/>
+              <xs:element name="features">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="feature" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="carid" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
