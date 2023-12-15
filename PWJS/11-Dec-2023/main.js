@@ -13,9 +13,9 @@ function showNotes() {
     if(notes == null) {
         notesJSObj = [];
     }else {
-        notesJSObj = JSON.parse(notes);        
-        notesJSObj.forEach(function(note) {
-            nBox.innerHTML = "";
+        notesJSObj = JSON.parse(notes);
+        nBox.innerHTML = "";        
+        notesJSObj.forEach(function(note) {            
             nBox.innerHTML += `
             <div class="card w-25 m-3">
                 <div class="card-header">
@@ -25,8 +25,9 @@ function showNotes() {
                     <p class="card-text">${note.dated}</p>
                     <p class="card-text">${note.description}</p>                    
                 </div>
-                <div class="card-footer>
-                    <a href="#" class="btn btn-outline-danger">Delete</a>
+                <div class="card-footer">
+                    <a href="#" type="button" class="btn btn-outline-danger">Delete</a>
+                </div>
             </div>
             `;
         });
