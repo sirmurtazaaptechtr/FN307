@@ -14,7 +14,9 @@ function showNotes() {
         notesJSObj = [];
     }else {
         notesJSObj = JSON.parse(notes);
-        nBox.innerHTML = "";        
+        nBox.innerHTML = `
+        <hr><h2>Your Notes</h2><hr>
+        `;        
         notesJSObj.forEach(function(note) {            
             nBox.innerHTML += `
             <div class="card w-25 m-3">
